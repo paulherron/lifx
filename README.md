@@ -3,6 +3,7 @@ Install
 
     pip install lifxlan
     pip install flask
+    pip install flask-cors
 
 
 Usage
