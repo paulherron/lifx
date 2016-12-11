@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, Response
+from flask_cors import CORS, cross_origin
 from lifxlan import LifxLAN
 import sys
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def status():
