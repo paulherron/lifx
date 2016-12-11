@@ -19,7 +19,7 @@ def status():
     power_states = {}
 
     for d in devices:
-        power_states[ d.get_label() ] = d.get_power()
+        power_states[ d.get_label() ] = d.get_power() > 0
 
     return jsonify(power_states)
 
