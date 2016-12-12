@@ -13,6 +13,11 @@ To serve the current power status of the bulb:
 
     python status.py
 
+To toggle bulbs on and off:
+
+    python broadcast_on.py
+    python broadcast_off.py
+
 To toggle the bulb at given times using `sunwait`:
 
     crontab -e
